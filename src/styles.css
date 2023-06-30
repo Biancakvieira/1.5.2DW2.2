@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  text-decoration-color: rgba(73, 72, 72, 0.863);
+}
+.concluida {
+  border: 2px solid blue;
+  border-radius: 6px;
+  padding: 7px;
+  padding-left: 15px;
+  text-align: left;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.excluida {
+  border: 2px solid red;
+  border-radius: 6px;
+  padding: 7px;
+  padding-left: 15px;
+  text-align: left;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.pendente {
+  border: 2px solid green;
+  border-radius: 6px;
+  padding: 7px;
+  padding-left: 15px;
+  text-align: left;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.pendente:nth-child(even):not(:first-child) {
+  background-color: #8fd14f;
+  color: white;
+}

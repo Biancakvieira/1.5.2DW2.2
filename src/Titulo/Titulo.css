@@ -1,0 +1,16 @@
+svg {
+  width: 25px;
+  fill: deeppink;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.5s linear;
+}
+
+.titulo:hover {
+  transform: scale(1.1);
+}

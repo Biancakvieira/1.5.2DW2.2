@@ -1,0 +1,23 @@
+.vermelho {
+  /* color: red; */
+  background-color: red;
+}
+
+.azul {
+  background-color: blue;
+  /* color: blue; */
+}
+
+.verde {
+  background-color: green;
+  /* color: green; */
+}
+
+button {
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-right: 5px;
+}
